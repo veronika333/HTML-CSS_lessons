@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Input type</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Input type</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Description</th>
+          <th>Input example</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <h2>Form elements</h2>
+        <tr>
+          <td class="firstRow" colspan="3">Input types:</td>
+        </tr>
+        <tr>
+          <td>button</td>
+          <td><input type="button" value="Click here" /></td>
+          <td>Needs value attribute</td>
+        </tr>
+        <tr>
+          <td>checkbox</td>
+          <td>
+            <input type="checkbox" value="It's a checkbox" />It is a checkbox
+          </td>
+          <td>
+            Needs a few different value attribute (to have multiple variants)
+          </td>
+        </tr>
+        <tr>
+          <td>color</td>
+          <td><input type="color" value="#000000" /></td>
+          <td>The value is a color</td>
+        </tr>
+        <tr>
+          <td>date</td>
+          <td>Date of birth:<input type="date" /></td>
+          <td>Needs a name</td>
+        </tr>
+        <tr>
+          <td>datetime-local</td>
+          <td>
+            The meeting starts (date, time):<input type="datetime-local" />
+          </td>
+          <td>Needs name</td>
+        </tr>
+        <tr>
+          <td>e-mail</td>
+          <td><input type="email" /></td>
+          <td>Can be "multiple"</td>
+        </tr>
+        <tr>
+          <td>file</td>
+          <td><input type="file" multiple /></td>
+          <td>If multiple, can allow multiple files</td>
+        </tr>
+        <tr>
+          <td>hidden</td>
+          <td>First name:<input type="hidden" value="3487" /></td>
+          <td>Defines a hidden input field, should have a value</td>
+        </tr>
+        <tr>
+          <td>image</td>
+          <td>
+            <input
+              type="image"
+              src="data:image/jpeg;base64,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"
+              alt="Submit"
+              width="40"
+              height="40"
+            />
+          </td>
+          <td>
+            The input type="image" sends the X and Y coordinates of the click
+            that activated the image button.
+          </td>
+        </tr>
+        <tr>
+          <td>month</td>
+          <td>Passport is valid until: <input type="month" /></td>
+          <td>Define a month and year control (no time zone)</td>
+        </tr>
+        <tr>
+          <td>number</td>
+          <td><input type="number" min="1" max="5" /></td>
+          <td>
+            Define a field for entering a number (You can also set restrictions
+            on what numbers are accepted)
+          </td>
+        </tr>
+        <tr>
+          <td>password</td>
+          <td><input type="password" /></td>
+          <td>
+            Define a password field (characters are masked), can set ex:
+            maxlegth="7"
+          </td>
+        </tr>
+        <tr>
+          <td>radio</td>
+          <td>
+            <p>Please select your gender:</p>
+            <input type="radio" name="gender" value="male" /> Male<br />
+            <input type="radio" name="gender" value="female" /> Female<br />
+            <input type="radio" name="gender" value="other" /> Other
+          </td>
+
+          <td>
+            Radio buttons let a user select only one of a limited number of
+            choices
+          </td>
+        </tr>
+        <tr>
+          <td>range</td>
+          <td><input type="range" name="points" min="0" max="10" /></td>
+          <td>Define a range control (like a slider control)</td>
+        </tr>
+        <tr>
+          <td>reset</td>
+          <td><input type="reset" /></td>
+          <td>
+            Define a reset button. You can click on the reset button to reset
+            the form.
+          </td>
+        </tr>
+        <tr>
+          <td>search</td>
+          <td>Search Google: <input type="search" q="googlesearch" /></td>
+          <td>Defines a text field for entering a search string</td>
+        </tr>
+        <tr>
+          <td>submit</td>
+          <td><input type="submit" /></td>
+          <td>Define a submit button</td>
+        </tr>
+        <tr>
+          <td>tel</td>
+          <td>Telephone: <input type="tel" name="usrtel" /></td>
+          <td>Define a field for entering a telephone number</td>
+        </tr>
+        <tr>
+          <td>text</td>
+          <td>Your name: <input type="text" name="fname" /></td>
+          <td>
+            Define a single-line text field that a user can enter text into
+          </td>
+        </tr>
+        <tr>
+          <td>time</td>
+          <td>Select a time: <input type="time" name="usr_time" /></td>
+          <td>Define a control for entering a time (no time zone)</td>
+        </tr>
+        <tr>
+          <td>url</td>
+          <td>Add your website: <input type="url" name="homepage" /></td>
+          <td>Define a field for entering a URL</td>
+        </tr>
+        <tr>
+          <td>week</td>
+          <td><input type="week" name="week_year" /></td>
+          <td>Define a week and year control (no time zone)</td>
+        </tr>
+        <tr>
+          <td>select</td>
+          <td>
+            <select name="candies" size="3" multiple>
+              <option value="milk_chocolate">Milk chocolate</option>
+              <option value="dark_chocolate">Dark chocolate</option>
+              <option value="white_chocolate">White chocolate</option>
+            </select>
+          </td>
+          <td>Can select a few options</td>
+        </tr>
+        <tr>
+          <td>textarea</td>
+          <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+          <td>You can drag text area and make it bigger</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

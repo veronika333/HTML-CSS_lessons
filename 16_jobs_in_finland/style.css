@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-size: 2vw;
+  color: black;
+  font-family: "Open Sans";
+}
+.jobs {
+  font-size: 2.5vw;
+  line-height: 2.7vw;
+}
+
+header .work {
+  font-size: 1.1vw;
+}
+.title {
+  color: white;
+  font-size: 6vw;
+}
+
+.menu_1 {
+  background-color: #002ea1;
+  padding-left: 2.5%;
+}
+
+.menu_1 li {
+  display: inline-block;
+  padding: 1%;
+  font-size: 1vw;
+}
+.menu_1 li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+.menu_1 li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+header h2,
+p {
+  color: #002ea1;
+}
+p,
+h2 {
+  margin-left: 2.8%;
+  margin-right: 2.8%;
+}
+#logo {
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: 7fr 1fr;
+  background-color: white;
+  padding: 2%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered h1,
+h2 {
+  text-transform: uppercase;
+  color: white;
+}
+.centered h1 {
+  font-size: 70px;
+  font-size: 4vw;
+}
+.centered h2 {
+  font-size: 20px;
+  font-size: 2vw;
+  line-height: 1.5;
+}
+.info h2 {
+  color: #002ea1;
+  font-size: 40px;
+}
+.info p {
+  color: black;
+  font-size: 25px;
+}
+.grid_jobs {
+  display: grid;
+  padding: 2%;
+  grid-template-rows: repeat (3, 1 fr);
+  grid-template-columns: repeat(4, 1fr);
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+.grid_jobs img {
+  width: 90%;
+  max-height: 150px;
+  min-height: 200px;
+  object-fit: cover;
+}
+.grid_jobs img:hover {
+  -webkit-filter: brightness(70%);
+  cursor: pointer;
+}
+
+.job_fields:first-child {
+  grid-column: 1;
+  grid-row: 1;
+}
+.job_fields:nth-child(2) {
+  grid-column: 2;
+  grid-row: 1;
+}
+.job_fields:nth-child(3) {
+  grid-column: 3;
+  grid-row: 1;
+}
+.job_fields:nth-child(4) {
+  grid-column: 4;
+  grid-row: 1;
+}
+.job_fields:nth-child(5) {
+  grid-column: 1;
+  grid-row: 2;
+}
+.job_fields:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+}
+.job_fields:nth-child(7) {
+  grid-column: 3;
+  grid-row: 2;
+}
+.job_fields:nth-child(8) {
+  grid-column: 4;
+  grid-row: 2;
+}
+.job_fields:nth-child(9) {
+  grid-column: 1;
+  grid-row: 3;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  cursor: pointer;
+}
+.bottom-left:hover {
+  text-decoration: underline;
+}
+.button {
+  background-color: #002ea1;
+  border: #000c80;
+  color: white;
+  padding: 1% 1%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1vw;
+  margin: 2% 2% 2% 3%;
+
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button:hover {
+  -webkit-filter: brightness(150%);
+}
+
+.job_fields {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 15%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 2vw;
+  text-shadow: 0 0 10px #000;
+  text-align: left;
+}
+
+.grid_cities {
+  display: grid;
+  padding: 2%;
+  grid-template-rows: repeat (3, 1 fr);
+  grid-template-columns: repeat(4, 1fr);
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+.finland_ciities {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.grid_cities img {
+  width: 90%;
+  min-height: 200px;
+  object-fit: cover;
+  max-height: 150px;
+}
+.grid_cities img:hover {
+  -webkit-filter: brightness(70%);
+  cursor: pointer;
+}
+.finland_ciities:first-child {
+  grid-column: 1;
+  grid-row: 1;
+}
+.finland_ciities:nth-child(2) {
+  grid-column: 2;
+  grid-row: 1;
+}
+.finland_ciities:nth-child(3) {
+  grid-column: 3;
+  grid-row: 1;
+}
+.finland_ciities:nth-child(4) {
+  grid-column: 4;
+  grid-row: 1;
+}
+.finland_ciities:nth-child(5) {
+  grid-column: 1;
+  grid-row: 2;
+}
+.finland_ciities:nth-child(6) {
+  grid-column: 2;
+  grid-row: 2;
+}
+.finland_ciities:nth-child(7) {
+  grid-column: 3;
+  grid-row: 2;
+}
+.finland_ciities:nth-child(8) {
+  grid-column: 4;
+  grid-row: 2;
+}
+.finland_ciities:nth-child(9) {
+  grid-column: 1;
+  grid-row: 3;
+}
+.finland_ciities:nth-child(10) {
+  grid-column: 2;
+  grid-row: 3;
+}
+.finland_ciities:nth-child(11) {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+footer {
+  padding: 5%;
+  color: white;
+  display: grid;
+  background-color: #002ea1;
+  grid-template-columns: repeat (3, 1fr);
+  grid-row: (1, 1fr);
+  font-size: 1vw;
+  line-height: 1.4rem;
+}
+._footer:first-child {
+  grid-column: 1;
+  grid-row: 1;
+}
+._footer:nth-child(2) {
+  grid-column: 2;
+  grid-row: 1;
+}
+._footer:last-child {
+  grid-column: 3;
+  grid-row: 1;
+}

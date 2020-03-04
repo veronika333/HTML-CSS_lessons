@@ -1,0 +1,14 @@
+body {
+  background: darkslategray;
+  color: white;
+  font-family: Verdana, sans-serif;
+  padding: 5px;
+  line-height: 3rem;
+}
+
+small {
+  color: salmon;
+}
+#id my_id {
+  color: rebeccapurple;
+}

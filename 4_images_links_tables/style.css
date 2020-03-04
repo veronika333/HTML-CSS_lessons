@@ -1,0 +1,80 @@
+body {
+  font-family: "Playfair Display", serif;
+  background-color: rgb(17, 110, 153);
+  color: #fff;
+}
+
+header {
+  background-color: #333;
+  text-align: right;
+}
+header ul {
+  list-style-type: none;
+  padding: 25px;
+}
+header ul li {
+  display: inline-block;
+}
+header ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 25px;
+}
+
+header ul li:hover {
+  background-color: rgb(57, 57, 146);
+}
+img {
+  height: 200px;
+}
+table {
+  border-collapse: collapse;
+}
+thead {
+  background-color: rgb(139, 41, 41);
+}
+th,
+td {
+  width: 300px;
+  padding: 20px;
+}
+tr {
+  border-bottom: 1px solid white;
+}
+
+#box1,
+#box2,
+#box3,
+#box4,
+#box5 {
+  width: 100px;
+  height: 100px;
+  background-color: #333;
+  margin: 20px;
+}
+#box1 {
+  border: 3px dotted #fff;
+  padding: 5px;
+  margin: 10px;
+}
+#box2 {
+  border: 5px double #fff;
+}
+#box3 {
+  border-width: 10px;
+  border-style: solid;
+  border-color: blue green red yellow;
+}
+#box4 {
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+#box5 {
+  border: 2px dashed #fff;
+  border-radius: 50%;
+}
+#boxes {
+  background: url("https://source.unsplash.com/1600x900/?nature,water")
+    no-repeat fixed center center/cover;
+}
