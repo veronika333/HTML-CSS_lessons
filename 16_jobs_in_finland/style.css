@@ -3,7 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+#search_tool{
+  float: right;
+  color: #ffffff;
+  padding-right: 3.5%;
+  font-size: 1.5rem;
+}
 body {
   background-color: white;
   font-size: 2vw;
@@ -344,14 +349,15 @@ footer {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: rgb(167, 164, 164); /* Set a background color */
-  color: black; /* Text color */
+  background-color:#ffffff; /* Set a background color */
+opacity: 0.7;
+  color: #002ea1; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 12px; /* Some padding */
-  border-radius: 5px; /* Rounded corners */
+  padding: 20px; /* Some padding */
+  border-radius: 2px; /* Rounded corners */
   font-size: 15px; /* Increase font size */
 }
 
 #myBtn2:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  cursor: pointer;
 }
