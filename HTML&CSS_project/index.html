@@ -16,22 +16,14 @@
                 <div class="my_portfolio">
                 My portfolio
             </div>
-                <div class="menu" type="button">Menu</div>
-                <div class="dropdown-content">
+                <div class="menu" type="button" onclick="menuFunction()">Menu <i class="fas fa-chevron-down"></i></div>
+                <div id="myDropdown" class="dropdown-content">
                     <a href="#about">About</a>
                     <a href="#cv">CV</a>
                     <a href="#skills">Skills</a>
                     <a href="#contact">Contact</a>
                   </div>
-                <!--
-                <div>
-                    <ul>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#cv">CV</a></li>
-                  <li><a href="#skills">Skills</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                </ul>
-                </div>-->
+      
               </div>
         </nav>
     </header>
@@ -41,11 +33,11 @@
         <h1>Hi, I'm Veronika,</h1> <br><br>
         <h2>Full-Stack Web Developer Student</h2><br><ber></ber>
         <p><b>I’m currently learning JavaScript, and will learn React, Redux, Node, 
-            by January 2021.</b><span id="more">I speak English and Russian, and have basic conversational ability 
+            by January 2021.</b><div id="myDIV">I speak English and Russian, and have basic conversational ability 
                 in Finnish. I look forward to bringing my programming language skills (and regular language skills, if needed) to work as 
-                a member of your software development team.</span></p> <br><br>
+                a member of your software development team.</div></p> <br><br>
 
-<button onclick="myFunction()" id="myBtn">Read more</button>
+<button onclick="myFunction()" id="myBtn" type="button">Read more</button>
 
     </section>
 
